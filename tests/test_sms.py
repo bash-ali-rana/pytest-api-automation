@@ -10,9 +10,9 @@ class TestSMS:
 
     @pytest.mark.parametrize("payload", [
         SMS_PAYLOAD,
-        (helper.update_request_body(BAD_SMS_PAYLOAD, '["from"]', "update", "+923034843874")),
-        (helper.update_request_body(BAD_SMS_PAYLOAD, '["to"]', "update", "+923034843874")),
-        (helper.update_request_body(BAD_SMS_PAYLOAD, '["body"]', "update", "This is new body"))
+        (helper.update_request_body(SMS_PAYLOAD, '["from"]', "update", "+923034843874")),
+        (helper.update_request_body(SMS_PAYLOAD, '["to"]', "update", "+923034843874")),
+        (helper.update_request_body(SMS_PAYLOAD, '["body"]', "update", "This is new body"))
     ])
     def test_post_sms_status_200_ok(self, bearer_token, client, payload, capsys):
         """
