@@ -4,7 +4,7 @@ PROPERTIES_FILE = "config/properties.ini"
 # AUTH INFORMATION
 AUTH_ROUTE = "https://auth.routee.net/oauth/token"
 GRANT_TYPE = 'grant_type=client_credentials&scope=sms'
-BASIC_KEY = 'Basic NjExZDZjMDU3YTg0ZWUwMDAxMzQzYWU1Ok9WYklnOEF2RlE='
+BASIC_KEY = 'Basic NTc1NmE0MTFlNGIwNmEzM2Q1MDUxN2M3OnZiNlFwaNJT0c='
 
 # ENDPOINTS
 SMS_ENDPOINT = "sms"
