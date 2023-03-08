@@ -1,4 +1,4 @@
-# Python - Darwin API Automation
+# Python - API Automation
 
 ## Prerequisites:
 
